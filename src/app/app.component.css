@@ -1,0 +1,35 @@
+
+.sidebar {
+    width: 300px; /* Adjust sidebar width as needed */
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.content {
+  display: flex;
+ width: 100%;
+ height: 100%;
+}
+.center2 {
+   column-gap: normal;
+    display: flex;
+    justify-items: self-start ;
+  }
+.truebackground{
+    background-color: rgb(249, 249, 249);
+    position: fixed; /* ทำให้มันติดอยู่กับ viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* กำหนดความกว้างให้เต็มหน้าจอ */
+    height: 100vh; /* กำหนดความสูงให้เต็มหน้าจอ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-content {
+    flex-grow:1;
+   
+}

@@ -1,0 +1,71 @@
+.truebackground {
+    width: 100vw;
+    height: 60px; /* Keep enough height */
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative; /* Ensure it doesn't overlap unnecessarily */
+    margin-left: 210px; /* Match sidebar width */
+    border-radius: 5px;
+    padding:50px; /* Ensure it's above other elements */
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 800px; /* ขยับไปทางซ้าย */
+}
+
+.content-text {
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    z-index: 10; /* Ensure text is on top */
+}
+.form-control {
+    border-radius: 10px;
+    width: 30vmax;
+    padding-left: 50px;
+    background-image: url('/search-icon.jpg');
+    background-size: 30px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+.span-text {
+    font-size: 12px; 
+    color: gray; 
+    font-weight: bold;
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+.content2 {
+    margin-left: 20px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+.img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.img2 {
+    margin-left: 15px;
+    width: 20px;
+    height: auto;
+}
