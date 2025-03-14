@@ -1,0 +1,96 @@
+.subcontent {
+    display: flex;
+    margin-bottom: 2%;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 3%;
+    margin-right: 3px;
+    width: 100%;
+gap: 10px ;
+}
+.content1,
+.content2,
+.content3 {
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.possition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.form-button {
+    background-color: #ffffff;
+    color: #000000;
+    margin-left: 3px;
+    border-radius: 6px;
+    width: 90px;
+    padding-left: 20px;
+    background-image: url('/export-icon.jpg');
+    background-size: 12px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.background,
+.background2,
+.background3,
+.background4 {
+    width: 140px;
+    height: 120px;
+    margin-right: 6px;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+}
+
+.background {
+    background-color: rgb(248, 207, 207);
+}
+.background2 {
+    background-color: rgb(254, 238, 197);
+}
+.background3 {
+    background-color: rgb(208, 242, 194);
+}
+.background4 {
+    background-color: rgb(235, 221, 245);
+}
+
+.img {
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.fonter {
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fonter2 {
+    font-size: small;
+    margin-left: 10px;
+}
+
+.fonter3 {
+    color: rgb(107, 107, 255);
+    font-size: x-small;
+    margin-left: 10px;
+}

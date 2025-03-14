@@ -5,19 +5,25 @@
     color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-items: row;
     padding: 0 20px;
     box-sizing: border-box;
     position: relative; /* Ensure it doesn't overlap unnecessarily */
-    margin-left: 210px; /* Match sidebar width */
+/* Match sidebar width */
     border-radius: 5px;
     padding:50px; /* Ensure it's above other elements */
 }
 .container {
     display: flex;
-    align-items: center;
     gap: 10px;
-    margin-right: 800px; /* ขยับไปทางซ้าย */
+  
+}
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
 }
 
 .content-text {
@@ -30,6 +36,7 @@ h1 {
     z-index: 10; /* Ensure text is on top */
 }
 .form-control {
+    margin-left:2px ;
     border-radius: 10px;
     width: 30vmax;
     padding-left: 50px;
@@ -54,9 +61,10 @@ h1 {
     margin-left: 20px;
     gap: 15px;
     display: flex;
+    justify-content: end;
     align-items: center;
     padding-right: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .img {
     width: 30px;

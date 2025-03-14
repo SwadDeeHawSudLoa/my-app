@@ -1,0 +1,120 @@
+.subcontent {
+    display: flex;
+    margin-bottom: 2%;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 3%;
+    margin-right: 3px;
+    width: 100%;
+
+}
+
+.content1 {
+    width: 40%;
+    margin-right: 3%;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.content2 {
+    width: 25%;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.possition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: px;
+}
+
+.form-button {
+    background-color: #ffffff;
+    color: #000000;
+    margin-left: 3px;
+    border-radius: 6px;
+    width: 90px;
+    padding-left: 25px;
+    background-image: url('/export-icon.jpg');
+    background-size: 12px;
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.background {
+    width: 170px;
+    height: 150px;
+    margin-right: 6px;
+    background-color: rgb(248, 207, 207);
+    border-radius: 6px;
+    padding: 5px;
+    text-align:left;
+}
+
+.background2 {
+    width: 170px;
+    height: 150px;
+    margin-right: 6px;
+    background-color: rgb(254, 238, 197);
+    border-radius: 6px;
+    padding: 5px;
+    text-align:left;
+}
+
+.background3 {
+    width: 170px;
+    height: 150px;
+    margin-right: 6px;
+    background-color: rgb(208, 242, 194);
+    border-radius: 6px;
+    padding: 5px;
+    text-align:left;
+}
+
+.background4 {
+    width: 170px;
+    height: 150px;
+    background-color: rgb(235, 221, 245);
+    border-radius: 6px;
+    margin-right: 6px;
+    padding: 5px;
+    text-align:left;
+}
+
+.img {
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.fonter {
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fonter2 {
+    font-size: small;
+    margin-left: 10px;
+}
+
+.fonter3 {
+    color: rgb(107, 107, 255);
+    font-size: xx-small;
+    margin-left: 10px;
+}
