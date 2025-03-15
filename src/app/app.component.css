@@ -1,6 +1,6 @@
 
 .sidebar {
-    width: 100px; /* Adjust sidebar width as needed */
+    width: 100px;
     height: 100%;
     background-color: #ffffff;
     box-shadow: 2px 0 5px #0000001a;
@@ -23,11 +23,11 @@
   }
 .truebackground{
     background-color: rgb(249, 249, 249);
-    position: fixed; /* ทำให้มันติดอยู่กับ viewport */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100vw; /* กำหนดความกว้างให้เต็มหน้าจอ */
-    height: 100vh; /* กำหนดความสูงให้เต็มหน้าจอ */
+    width: 100vw; 
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
   
 }
 .pos-subcontent{
-  margin-top: 2%;
+  margin-top: 1%;
   position: fixed;
 display: flex;
 width: 100%;

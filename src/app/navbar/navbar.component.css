@@ -44,7 +44,7 @@
     height: auto;
     margin-right: 10px;
 }
-/* Menu Items */
+
 .content1 {
     display: flex;
    
@@ -69,8 +69,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
     display: flex;
-    align-items: center;  /* จัดให้อยู่ตรงกลางแนวตั้ง */
-    gap: 10px; /* เพิ่มระยะห่างระหว่างไอคอนกับข้อความ */
+    align-items: center;  
+    gap: 10px; 
 }
 
 
@@ -79,7 +79,6 @@
     filter: brightness(0) invert(1);
 }
 
-/* Default (Unselected) */
 .content2 {
     color: #a0a0a0;
 }

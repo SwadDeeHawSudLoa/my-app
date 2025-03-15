@@ -1,0 +1,14 @@
+.chart-container {
+  display: flex;
+justify-content: center; 
+align-items: center;    
+ width: 600px;
+  height: 180px; 
+
+}
+  
+  canvas {
+    width: 300% !important;
+    height: 100px !important;
+  }
+  

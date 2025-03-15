@@ -1,8 +1,7 @@
 .subcontent {
     display: flex;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     align-items: center;
-    margin-top: 1px;
     margin-left: 3%;
     margin-right: 3px;
     width: 100%;
@@ -16,16 +15,18 @@
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 13%;
 }
 
 .content2 {
-    width: 25%;
+    width: 35%;
     height: 250px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 13%;
 }
 
 .possition {
@@ -34,7 +35,17 @@
     align-items: center;
     margin-top: 1px;
     margin-left: 1px;
-    margin-right: px;
+    margin-right: 1px;
+margin-bottom: 5px;
+}
+.possition2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+
 }
 
 .form-button {
@@ -57,42 +68,42 @@
 }
 
 .background {
-    width: 170px;
+    width: 150px;
     height: 150px;
     margin-right: 6px;
     background-color: rgb(248, 207, 207);
     border-radius: 6px;
-    padding: 5px;
+    padding: 1px;
     text-align:left;
 }
 
 .background2 {
-    width: 170px;
+    width: 150px;
     height: 150px;
     margin-right: 6px;
     background-color: rgb(254, 238, 197);
     border-radius: 6px;
-    padding: 5px;
+    padding: 1px;
     text-align:left;
 }
 
 .background3 {
-    width: 170px;
-    height: 150px;
+    width: 150px;
+    height: 150px;;
     margin-right: 6px;
     background-color: rgb(208, 242, 194);
     border-radius: 6px;
-    padding: 5px;
+    padding: 1px;
     text-align:left;
 }
 
 .background4 {
-    width: 170px;
+    width: 150px;
     height: 150px;
     background-color: rgb(235, 221, 245);
     border-radius: 6px;
     margin-right: 6px;
-    padding: 5px;
+    padding: 1px;
     text-align:left;
 }
 

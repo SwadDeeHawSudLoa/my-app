@@ -1,6 +1,6 @@
 .truebackground {
     width: 100vw;
-    height: 60px; /* Keep enough height */
+    height: 60px; 
     background-color: rgb(255, 255, 255);
     color: black;
     display: flex;
@@ -8,10 +8,9 @@
     justify-items: row;
     padding: 0 20px;
     box-sizing: border-box;
-    position: relative; /* Ensure it doesn't overlap unnecessarily */
-/* Match sidebar width */
+    position: relative; 
     border-radius: 5px;
-    padding:50px; /* Ensure it's above other elements */
+    padding:50px; 
 }
 .container {
     display: flex;
@@ -33,7 +32,7 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     margin: 0;
-    z-index: 10; /* Ensure text is on top */
+    z-index: 10;
 }
 .form-control {
     margin-left:2px ;
