@@ -13,13 +13,13 @@
  height: 100%;
 }
 .subcontent {
-  
+  height: 100%;
   margin-top: 50px;
   margin-left: 50px;
   margin-bottom: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; position: fixed;
   }
 .truebackground{
     background-color: rgb(249, 249, 249);
@@ -35,11 +35,11 @@
 }
 .main-content {
    margin-left: 0px;
-  
+    
 }
 .pos-subcontent{
-  margin-top: 1%;
-  position: fixed;
+
+
 display: flex;
 width: 100%;
 flex-direction: column;

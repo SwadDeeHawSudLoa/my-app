@@ -1,18 +1,19 @@
 .subcontent {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     align-items: center;
-    margin-left: 3%;
+    margin-top: 10px;
+    margin-left: 30px;
     margin-right: 3px;
     width: 100%;
-gap: 10px ;
-}
+gap: 30px ;
 
+}
 .content1{
 
 
     width: 600px;
-    height: 200px;
+    height: 270px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -23,18 +24,21 @@ gap: 10px ;
     padding-right:50px ;
     padding-top: 35px;
 }
-
-.content2 {
+.content2{
     width: 400px;
-    height: 200px;
+    height: 270px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-right:50px ;
 }
-.content3{
+.content3 {
     width: 420px;
-    height: 200px;
+    height: 270px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -43,15 +47,49 @@ gap: 10px ;
     align-items: center; 
     justify-content: flex-start; 
     padding: 15px;
+    
+   
 }
+.chart-title {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+
+.content1 .possition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content2 .possition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.content3 .possition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 
 .possition {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5px;
+    align-items: flex-start; 
     margin-left: 10px;
     margin-right: 5px;
+    padding-right:1px;
 }
 
 .form-button {
@@ -81,25 +119,14 @@ gap: 10px ;
     height: 120px;
     margin-right: 6px;
     border-radius: 6px;
-    padding: 5px;
+    padding: 30px;
     text-align: center;
 }
 
-.background {
-    background-color: rgb(248, 207, 207);
-}
-.background2 {
-    background-color: rgb(254, 238, 197);
-}
-.background3 {
-    background-color: rgb(208, 242, 194);
-}
-.background4 {
-    background-color: rgb(235, 221, 245);
-}
 
-.img {
-    width: 50px;
+
+.imgmap {
+    width: 240px;
     height: auto;
     margin-right: 5px;
 }
@@ -120,9 +147,62 @@ gap: 10px ;
     font-size: x-small;
     margin-left: 10px;
 }
-.imgmap {
-    display: block;
-    width: 250px; /* ปรับให้เต็มความกว้างของ .content2 */
-    height: 140px; /* คงอัตราส่วนของภาพ */
-    margin: 0 auto; /* จัดกึ่งกลางแนวนอน */
+
+h3 {
+    color: #2b2b5f;
+    font-weight: bold;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 200px !important;
+}
+
+.legend {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.legend-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    text-align: center;
+}
+.legend-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.legend-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.legend-item p {
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.legend-item span {
+    color: gray;
+    font-size: 10px;
+}
+
+.reality-value {
+    color: #31c48d; /* สีเขียว */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.target-value {
+    color: #f4a261; /* สีส้ม */
+    font-weight: bold;
+    font-size: 14px;
 }
