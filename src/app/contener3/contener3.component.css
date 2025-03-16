@@ -8,19 +8,18 @@
     width: 100%;
 gap: 30px ;
 
-}
-.content1{
+}.content1{
 
-    width: 35%;
-    height: 270px;
+    width: 40%;
+    height: 320px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
 }
 .content2{
-    width: 23.5%;
-    height: 270px;
+    width: 25%;
+    height: 320px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -30,8 +29,8 @@ gap: 30px ;
 }
 
 .content3 {
-    width: 20%;
-    height: 270px;
+    width: 22.5%;
+    height: 320px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -42,6 +41,7 @@ gap: 30px ;
     
    
 }
+   
 .chart-title {
     text-align: left;
     width: 100%;

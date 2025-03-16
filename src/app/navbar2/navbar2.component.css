@@ -35,7 +35,7 @@ h1 {
     z-index: 10;
 }
 .form-control {
-    margin-left:2px ;
+  
     border-radius: 10px;
     width: 30vmax;
     padding-left: 50px;
@@ -78,7 +78,7 @@ h1 {
     height: auto;
 }
 .dashboardcontetnt{
-padding-left: 200px;
+padding-left: 50px;
 
 
 }
