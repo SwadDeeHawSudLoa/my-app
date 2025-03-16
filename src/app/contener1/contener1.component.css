@@ -13,7 +13,7 @@
 .content1{
 
    /* margin-right: 20px;*/
-width: 50%; 
+width:40%; 
     height: 270px;
     background-color: #ffffff;
     border-radius: 15px;
@@ -82,8 +82,8 @@ width: 95%;
 }
 
 .background {
-    width: 150px;
-    height: 160px;
+    width: 130px;
+    height: 150px;
     /*margin-right: 6px;*/
     background-color: rgb(248, 207, 207);
     border-radius: 6px;
@@ -93,8 +93,8 @@ width: 95%;
 }
 
 .background2 {
-    width: 150px;
-    height: 160px;
+    width: 130px;
+    height: 150px;
     /*margin-right: 6px;*/
     background-color: rgb(254, 238, 197);
     border-radius: 6px;
@@ -104,8 +104,8 @@ width: 95%;
 }
 
 .background3 {
-    width: 150px;
-    height: 160px;;
+    width: 130px;
+    height: 150px;;
     /* margin-right: 6px; */
     background-color: rgb(208, 242, 194);
     border-radius: 6px;
@@ -115,8 +115,8 @@ width: 95%;
 }
 
 .background4 {
-    width: 150px;
-    height: 160px;
+    width: 130px;
+    height: 150px;
     background-color: rgb(235, 221, 245);
     border-radius: 6px;
     margin-right: 3px; 
@@ -146,4 +146,8 @@ width: 95%;
     color: rgb(107, 107, 255);
     font-size: xx-small;
     margin-left: 10px;
+}
+.w {
+width: 100%;
+
 }

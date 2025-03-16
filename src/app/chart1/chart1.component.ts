@@ -10,7 +10,7 @@ Chart.register(...registerables, annotationPlugin);
   template: `<canvas #chartCanvas></canvas>`,
   styles: [
     `canvas {
-      width: 150% !important; 
+      width: 100% !important; 
       height: 210px !important; 
       max-width: 150% !important;
     }`
