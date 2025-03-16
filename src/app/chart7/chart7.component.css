@@ -1,0 +1,10 @@
+.chart-container {
+    width: 500px; /* ปรับขนาดตามต้องการ */
+    height: 100px;
+    position: relative;
+  }
+  
+  .chart-container canvas {
+    width: 200% !important;
+    height: 50% !important;
+  }

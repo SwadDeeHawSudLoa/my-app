@@ -1,18 +1,58 @@
-canvas {
-    height: 100px;
-    width: 600px;
-    max-width: 600px;
-  }
-.possition{ 
-    height: 150px;
-    width: 300px;
-
-
-}
-.possition2{ 
-    margin-left: 10px;
+.chart-container {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+align-items: center;
+    border-radius: 10px;
+height: 120px;
+    width: 310px; /* ปรับขนาดตามต้องการ */
+}
 
+.legend {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 10px;
+}
 
+.legend-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    text-align: center;
+}
+.legend-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.legend-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.legend-item p {
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.legend-item span {
+    color: gray;
+    font-size: 10px;
+}
+
+.reality-value {
+    color: #31c48d; /* สีเขียว */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.target-value {
+    color: #f4a261; /* สีส้ม */
+    font-weight: bold;
+    font-size: 14px;
 }

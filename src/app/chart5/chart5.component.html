@@ -1,1 +1,27 @@
-<p>chart5 works!</p>
+<table class="compact-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Popularity</th>
+        <th>Sales</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of salesData">
+        <td>{{ item.id }}</td>
+        <td>{{ item.name }}</td>
+        <td>
+          <div class="progress">
+            <div class="progress-bar" [ngStyle]="{ width: item.popularity + '%', backgroundColor: item.color }"></div>
+          </div>
+        </td>
+        <td>
+          <span class="sales-badge" [ngStyle]="{ borderColor: item.color, color: item.color }">
+            {{ item.sales }}%
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

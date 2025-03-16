@@ -1,18 +1,32 @@
 table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 10px;
-    text-align: left;
-  }
-  th {
-    font-weight: bold;
-  }
-  td span {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 4px;
-    color: white;
-  }
-  
+  width: 100%;
+  height: 80px; /* ลดความสูงของตาราง */
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px; /* ลด padding ของ th และ td */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.progress {
+  width: 100%;
+  height: 6px; /* ลดความสูงของ progress bar */
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+}
+
+.sales-badge {
+  display: inline-block;
+  padding: 2px 8px; /* ปรับ padding ของ sales badge */
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 10px; /* ลดขนาดตัวอักษร */
+  font-weight: bold;
+}
