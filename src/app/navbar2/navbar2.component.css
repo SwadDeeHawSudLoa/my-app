@@ -1,5 +1,5 @@
 .truebackground {
-    width: 100vw;
+    width: 100%;
     height: 60px; 
     background-color: rgb(255, 255, 255);
     color: black;
@@ -45,6 +45,7 @@ h1 {
     background-repeat: no-repeat;
 }
 .span-text {
+   
     font-size: 12px; 
     color: gray; 
     font-weight: bold;
@@ -75,4 +76,9 @@ h1 {
     margin-left: 15px;
     width: 20px;
     height: auto;
+}
+.dashboardcontetnt{
+padding-left: 200px;
+
+
 }

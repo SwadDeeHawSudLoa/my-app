@@ -1,14 +1,14 @@
 .chart-container {
   display: flex;
-justify-content: center; 
-align-items: center;    
- width: 600px;
-  height: 180px; 
-
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  height: 150px;
+  width: 100%; /* ปรับขนาดตามต้องการ */
 }
-  
-  canvas {
-    width: 300% !important;
-    height: 100px !important;
-  }
-  
+
+.chart-container canvas {
+  width: 130% !important;
+  height: 100% !important;
+}

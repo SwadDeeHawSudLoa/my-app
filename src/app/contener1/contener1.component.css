@@ -1,40 +1,51 @@
+
 .subcontent {
     display: flex;
     margin-bottom: 1px;
     align-items: center;
     margin-right: 3px;
     width: 100%;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
     gap: 30px ;
 }
 
 .content1{
 
-    margin-right: 20px;
-    width: 800px;
+   /* margin-right: 20px;*/
+width: 50%; 
     height: 270px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-   
-    padding-top: 35px;
+  padding: 10px;
+  
+}
+
+  /* .con1{
+    margin-left:20px ;
+    margin-right:20px ;
+display: flex;
+width: 95%;
+
+}   */
+.container{
+    display: flex;
+    width: 100%;
 }
 .content2{
-    width: 630px;
+    width: 40%;
     height: 270px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding-right:50px ;
+    align-items: center;
+    padding: 10px;
 }
 
 .possition {
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,9 +58,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
+   
 
 }
 
@@ -74,46 +83,50 @@
 
 .background {
     width: 150px;
-    height: 150px;
-    margin-right: 6px;
+    height: 160px;
+    /*margin-right: 6px;*/
     background-color: rgb(248, 207, 207);
     border-radius: 6px;
-    padding: 1px;
     text-align:left;
+    margin-left: 3px;
+    margin-right: 3px; 
 }
 
 .background2 {
     width: 150px;
-    height: 150px;
-    margin-right: 6px;
+    height: 160px;
+    /*margin-right: 6px;*/
     background-color: rgb(254, 238, 197);
     border-radius: 6px;
-    padding: 1px;
+    margin-left: 3px;
     text-align:left;
+    margin-right: 3px; 
 }
 
 .background3 {
     width: 150px;
-    height: 150px;;
-    margin-right: 6px;
+    height: 160px;;
+    /* margin-right: 6px; */
     background-color: rgb(208, 242, 194);
     border-radius: 6px;
-    padding: 1px;
+    margin-left: 3px;
+    margin-right: 3px; 
     text-align:left;
 }
 
 .background4 {
     width: 150px;
-    height: 150px;
+    height: 160px;
     background-color: rgb(235, 221, 245);
     border-radius: 6px;
-    margin-right: 6px;
+    margin-right: 3px; 
     padding: 1px;
     text-align:left;
+    margin-left: 3px;
 }
 
 .img {
-    width: 50px;
+    width: 60px;
     height: auto;
     margin-right: 5px;
 }
