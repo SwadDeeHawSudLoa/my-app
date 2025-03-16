@@ -1,51 +1,56 @@
-import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import Chart from 'chart.js/auto';
 
 @Component({
   selector: 'app-chart3',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule], // No ng2-charts needed
   templateUrl: './chart3.component.html',
   styleUrls: ['./chart3.component.css']
 })
 export class Chart3Component implements AfterViewInit {
-  @ViewChild('lineChart') lineChart!: ElementRef<HTMLCanvasElement>;
-  private chart!: Chart;
+  @ViewChild('areaChart') areaChart!: ElementRef;
 
   ngAfterViewInit() {
-    this.createChart();
-  }
-
-  createChart() {
-    this.chart = new Chart(this.lineChart.nativeElement, {
+    new Chart(this.areaChart.nativeElement, {
       type: 'line',
       data: {
-        labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+        labels: ['week 1', 'week 2', 'week 3', 'week 4', 'week 5', 'week 6', 'week 7'],
         datasets: [
           {
             label: 'Last Month',
-            data: [3000, 3200, 2900, 3100, 3300, 3500, 3000],
-            borderColor: '#2276f5',
-            backgroundColor: 'rgba(34, 118, 245, 0.2)',
-            pointBackgroundColor: '#2276f5',
-            pointBorderColor: '#ffffff',
+            data: [3100, 3500, 2900, 2900, 3000, 4000, 3700],
+            borderColor: '#007bff',
+            backgroundColor: 'rgba(0, 123, 255, 0.2)',
             fill: true,
+            pointBackgroundColor: '#007bff',
+            tension: 0.4
           },
           {
-            label: 'This Month',
-            data: [4000, 4200, 4300, 4100, 4400, 4600, 4500],
-            borderColor: '#18c964',
-            backgroundColor: 'rgba(24, 201, 100, 0.2)',
-            pointBackgroundColor: '#18c964',
-            pointBorderColor: '#ffffff',
+            label: 'This Month',    
+            data: [3200, 3600, 2800, 3100, 3300, 4200, 3900], 
+            borderColor: '#28a745',
+            backgroundColor: 'rgba(40, 167, 69, 0.2)',
             fill: true,
+            pointBackgroundColor: '#28a745',
+            tension: 0.4
           }
         ]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        plugins: {
+          legend: {  display: false, 
+            labels: { 
+              
+            } }
+        },
+        scales: {
+          x: { display: false },
+          y: { display: false }
+        }
       }
     });
   }

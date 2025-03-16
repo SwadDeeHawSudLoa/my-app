@@ -1,0 +1,18 @@
+canvas {
+    height: 100px;
+    width: 600px;
+    max-width: 600px;
+  }
+.possition{ 
+    height: 150px;
+    width: 300px;
+
+
+}
+.possition2{ 
+    margin-left: 10px;
+    display: flex;
+   flex-direction: column;
+
+
+}

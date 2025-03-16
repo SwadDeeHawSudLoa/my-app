@@ -1,18 +1,63 @@
-
-div {
-    width: 100%;
-    max-width: 600px;
-    height: 10px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-
+.chart-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 350px;
+  height: 200px;
+}
+.chart-container2 {
+  display: flex;
+justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  width: 390px;
+  height:150px;
+  border-bottom: 1px solid  #d8d8d8 ;
+}
   canvas {
-    width: 100% !important;
-    height: 100% !important;
+    width: 110% !important;
+    height: 80% !important;
+   
   }
   
+.gg{
 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.div1{
+  width: 110%;
+  height: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+
+}
+
+.content1{
+color:  #a0a0a0;
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-items: center;
+
+
+}
+.content2{
+
+  color:  #a0a0a0;
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-items: center;
+
+
+
+}.img {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
