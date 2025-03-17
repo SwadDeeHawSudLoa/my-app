@@ -1,6 +1,6 @@
 table {
-  width: 135%;
-  height: 80px; /* ลดความสูงของตาราง */
+  width: 100%;
+  height: 250px; /* ลดความสูงของตาราง */
   border-collapse: collapse;
 }
 
