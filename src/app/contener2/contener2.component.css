@@ -10,7 +10,7 @@ gap: 30px ;
 }
 .content1{
 
-    width: 40%;
+    width: 100%;
     height: 320px;
     background-color: #ffffff;
     border-radius: 15px;
@@ -18,7 +18,7 @@ gap: 30px ;
     display: flex;
 }
 .content2{
-    width: 25%;
+    width: 100%;
     height: 320px;
     background-color: #ffffff;
     border-radius: 15px;
@@ -29,7 +29,7 @@ gap: 30px ;
 }
 
 .content3 {
-    width: 22.5%;
+    width: 100%;
     height: 320px;
     background-color: #ffffff;
     border-radius: 15px;
@@ -37,8 +37,6 @@ gap: 30px ;
     display: flex;
     flex-direction: column; 
   
-
-    
    
 }
 .chart-title {
@@ -199,4 +197,25 @@ canvas {
     color: #f4a261; /* สีส้ม */
     font-weight: bold;
     font-size: 14px;
+}
+.susubcontent{
+
+    width:40%;
+
+
+
+}
+.susubcontent2{
+
+    width:20%;
+
+
+
+}
+.susubcontent3{
+
+    width:20%;
+
+
+
 }
